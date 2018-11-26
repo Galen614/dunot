@@ -1,0 +1,507 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+
+body{
+	font-size: 13px;
+    line-height: 19px;
+    color: #111;
+}
+
+a{
+	text-decoration: none;
+	color: currentcolor;
+}
+ul li{
+	list-style: none;
+}
+
+header {
+	background-color: #242f3e;
+	height: 93px;
+	background-image: url(../img/header.png);
+	z-index: 99;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+		#bg_1{
+			background-size:100% 100%!important;
+		}
+		
+		#bg_2 .page_2{
+			background-size:100% 100%!important;
+		}
+		
+		#dunot .page_3 {
+
+		background-size:100% 100%!important;
+		background-position: 50% 50%;
+	}
+		
+		#bg_2 .content1{
+			
+			padding: 25px 0px 0px!important;
+		}
+		
+		
+		#bg_2 h1{
+			font-size:30px!important;
+			font-weight: lighter;
+			margin-bottom:20px!important;
+			opacity:0;
+		}
+			
+		#bg_2 p{
+			font-size:20px!important;
+			line-height:30px!important;
+			width:190px!important;
+			font-weight: lighter!important;
+			min-height: auto;
+			animation-delay: 500ms;
+			opacity:0;
+		}
+		
+		#dunot #bg_3 .tableCell{
+			vertical-align: top!important;
+			padding-top:0px!important;
+		}
+		
+		
+		#dunot #bg_3 .content1 ul{
+			display: block!important;
+		}
+		
+		#dunot #bg_3 .content1 ul li {
+			    float: left!important;
+				display: flex!important;
+				width: 100px!important;
+				height: 40px!important;
+				align-items: center!important;
+				margin-top:50px!important;
+				margin-right:10px!important;
+				margin-left:10px!important;
+				justify-content: space-between!important;
+	
+		}
+		
+		#dunot #bg_3 .content1 ul li img{
+			width:100%;
+			height:100%;
+		}
+		
+		#dunot #bg_4 .tableCell{
+			display: block!important;
+			vertical-align:top!important;
+			width: 100%!important;
+			height: auto!important;
+			
+		}
+		
+		#dunot #bg_4  video{
+		object-fit: contain!important;
+		width:100%!important;
+		}
+		#dunot #bg_4 .content1{
+			margin-top:60px;
+		}
+		
+		#dunot #bg_4 .content1 h1{
+			font-size:30px!important;
+			font-weight: lighter;
+			margin-bottom:20px!important;
+			opacity:0;
+			
+		}
+		
+		#dunot #bg_4 .content1 p{
+			font-size:15px!important;
+			line-height:30px!important;
+			width:350px!important;
+			min-height: auto;
+			animation-delay: 800ms;
+			opacity:0;
+		}
+		#dunot #bg_6 .tableCell{
+			display: block!important;
+		}
+		#dunot #bg_6 .content1 {
+			margin: 0 auto;
+			width: 100%;
+			padding-top:0px!important;
+			text-align: center;
+			height:100%;
+			position: relative;
+		}
+		
+		
+		#dunot #bg_6 .content1 img{
+		
+			height:200px!important;
+			margin:10px;
+			
+		}
+		
+		#bg_7 {
+			background-size:100% 100%!important;
+		}
+		
+		#dunot #bg_7 .content1{
+			max-width: 1300px;
+		    margin: 0 auto;
+		    width: 100%;
+		    text-align: left;
+			padding-top:200px;
+		
+		}
+		
+		#dunot #bg_7 .content1 ul{
+			padding-top:300px;
+			display: flex;
+			justify-content: space-around;
+		}
+		
+		#dunot #bg_7 .content1 ul li {
+		    float: left;
+		    display: flex;
+		    width: 50px!important;
+		    height:50px!important;
+		    align-items: center;
+			
+		}
+		
+		#dunot #bg_7 .content1 ul li img{
+			width:100%;
+			height:100%;
+			display: block;
+			margin:0 auto;
+			
+		}
+		
+		#dunot #bg_7 h1 {
+			font-size:50px!important;
+			font-weight: lighter;
+			opacity:1;
+			color: #FFFFFF;
+			padding-left:20px;
+			opacity:0;
+		}
+		
+		
+		#dunot #bg_7 p {
+			font-size:20px!important;
+			min-height: auto;
+			opacity:1;
+			padding-top:50px!important;
+			color: #FFFFFF;
+			opacity:0;
+			animation-delay: 400ms;
+		}
+		
+		
+	}
+
+
+.slidesContainer{
+	float: left;
+    position: relative;
+}
+
+
+#dunot #bg_1 {
+	background-image: url(../img/page1.jpg);
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#dunot .page_2 {
+	background-image: url(../img/page2.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#dunot .page_3 {
+	background-image: url(../img/page3.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+
+#dunot #bg_5 {
+width: 100%;
+height: 100%;
+}
+
+#dunot #bg_7 {
+	background-image: url(../img/page7.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+/*第二张*/
+#dunot #bg_2 .content1{
+	max-width: 1050px;
+    width: 100%;
+    padding: 25px 50px 0;
+    text-align: left;
+}
+
+#dunot #bg_2 .content1 h1{
+	font-size:60px;
+	font-weight: lighter;
+	margin-bottom:50px;
+	opacity:0;
+}
+
+#dunot #bg_2 .content1 p{
+	font-size:22px;
+	line-height:40px;
+	width:510px;
+	min-height: auto;
+	animation-delay: 500ms;
+	opacity:0;
+}
+
+
+/*第三张*/
+#dunot #bg_3 .content1{
+	max-width: 1700px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#dunot #bg_3 .content1 ul{
+    display: flex;
+    justify-content: space-around;
+	
+}
+
+#dunot #bg_3 .tableCell{
+	display: block;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+
+#dunot #bg_3 .content1 ul li {
+    float: left;
+    display: flex;
+    max-width: 357px;
+    height: 85px;
+    align-items: center;
+	justify-content:space-around;
+	
+	
+}
+
+
+
+#dunot #bg_3 .Brand1{
+	opacity:0;
+	
+}
+
+#dunot #bg_3 .Brand2{
+	opacity:0;
+	animation-delay: 200ms;
+}
+
+#dunot #bg_3 .Brand3{
+	opacity:0;
+	animation-delay: 400ms;
+}
+
+#dunot #bg_3 .Brand4{
+	opacity:0;
+	animation-delay: 600ms;
+}
+
+#dunot #bg_3 .Brand5{
+	opacity:0;
+	animation-delay: 800ms;
+}
+
+#dunot #bg_3 .Brand6{
+	opacity:0;
+	animation-delay: 1000ms;
+}
+
+.toShow{
+	opacity:1;
+}
+
+/*第四张*/
+
+
+#dunot #bg_4  video{
+display: block;
+width:180%;
+object-fit: fill;
+box-sizing: border-box;
+}
+
+#dunot #bg_4 .content1{
+	float: left;
+	margin-right:200px;
+}
+
+#dunot #bg_4 .content1 h1{
+	font-size:60px;
+	font-weight: lighter;
+	margin-bottom:50px;
+	opacity:0;
+	
+}
+
+#dunot #bg_4 .content1 p{
+	font-size:22px;
+	line-height:40px;
+	width:510px;
+	min-height: auto;
+	animation-delay: 800ms;
+	opacity:0;
+	
+	
+}
+
+
+
+/*第五张*/
+#dunot #bg_5 video{
+	width: 100%;
+	height:100%; 
+	object-fit: fill;
+}
+
+/*第六张*/
+
+#dunot #bg_6 .content1{
+	max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top:150px;
+    text-align: center;
+}
+
+#dunot #bg_6 .content1 .IMG_1{
+	opacity:0;
+
+}
+#dunot #bg_6 .content1 .IMG_2{
+	opacity:0;
+	animation-delay: 300ms;
+}
+#dunot #bg_6 .content1 .IMG_3{
+	opacity:0;
+	animation-delay: 600ms;
+}
+
+/*第七张*/
+#dunot #bg_7 .content1{
+	max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+	padding-top:200px;
+
+}
+
+#dunot #bg_7 .content1 ul{
+	padding-top:300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#dunot #bg_7 .content1 ul li {
+    float: left;
+    display: flex;
+    width: 150px;
+    height:150px;
+    align-items: center;
+	
+}
+
+#dunot #bg_7 .content1 ul li img{
+	width:100%;
+	height:100%;
+	display: block;
+	margin:0 auto;
+	
+}
+
+#dunot #bg_7 h1 {
+	font-size:80px;
+	font-weight: lighter;
+	opacity:1;
+	color: #FFFFFF;
+	padding-left:20px;
+	opacity:0;
+}
+
+
+#dunot #bg_7 p {
+	font-size:40px;
+	min-height: auto;
+	opacity:1;
+	padding-top:100px;
+	color: #FFFFFF;
+	opacity:0;
+	animation-delay: 400ms;
+}
+
+
+#dunot #bg_7 .Icon1{
+	opacity:0;
+	animation-delay: 450ms;
+}
+
+#dunot #bg_7 .Icon2{
+	opacity:0;
+	animation-delay: 600ms;
+}
+
+#dunot #bg_7 .Icon3{
+	opacity:0;
+	animation-delay: 750ms;
+}
+
+#dunot #bg_7 .Icon4{
+	opacity:0;
+	animation-delay: 900ms;
+}
+
+#dunot #bg_7 .Icon5{
+	opacity:0;
+	animation-delay: 1050ms;
+}
+
+#dunot #bg_7 .Icon6{
+	opacity:0;
+	animation-delay: 1200ms;
+}
+#dunot #bg_7 .Icon7{
+	opacity:0;
+	animation-delay: 1350ms;
+}
+
+
+
+
+
