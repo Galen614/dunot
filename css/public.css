@@ -31,42 +31,89 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+		#fullPage-nav{
+			display: none!important;
+		}
+
 		#bg_1{
-			background-size:100% 100%!important;
+			background-image: url(../img/750_01.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+			
 		}
 		
 		#bg_2 .page_2{
-			background-size:100% 100%!important;
+			background-image:url(../img/750_02.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
 		}
+			
 		
 		#dunot .page_3 {
-
-		background-size:100% 100%!important;
-		background-position: 50% 50%;
-	}
+			background-image: url(../img/750_03.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
 		
-		#bg_2 .content1{
-			
-			padding: 25px 0px 0px!important;
+		#dunot .page_4 {
+			background-image: url(../img/750_04.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		
+		#bg_5{
+			background-image:url(../img/750_05.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		
+		#bg_7{
+			background-image:url(../img/750_07.jpg)!important;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
 		}
 		
 		
+		.section{
+			text-align: center!important;
+		}
+		
+		#bg_2 .tableCell{
+			display: block!important;
+			padding-top: 60px!important;
+			
+		}
+		
 		#bg_2 h1{
-			font-size:30px!important;
-			font-weight: lighter;
+			font-size:40px!important;
+			font-weight: normal!important;
 			margin-bottom:20px!important;
 			opacity:0;
+			padding-left:0px!important;
 		}
 			
 		#bg_2 p{
-			font-size:20px!important;
-			line-height:30px!important;
-			width:190px!important;
-			font-weight: lighter!important;
+			font-size:17px!important;
+			line-height:25px!important;
+			width:80%!important;
 			min-height: auto;
 			animation-delay: 500ms;
 			opacity:0;
+			text-align: left!important;
 		}
+		
 		
 		#dunot #bg_3 .tableCell{
 			vertical-align: top!important;
@@ -76,15 +123,21 @@ header {
 		
 		#dunot #bg_3 .content1 ul{
 			display: block!important;
+			padding-right:0px!important;
+			padding-left: 0px!important;
+			margin: 0 auto;
+			
+			
+			
 		}
 		
 		#dunot #bg_3 .content1 ul li {
 			    float: left!important;
 				display: flex!important;
-				width: 100px!important;
-				height: 40px!important;
 				align-items: center!important;
-				margin-top:50px!important;
+				width:140px!important;
+				height: auto!important;
+				margin-top:30px!important;
 				margin-right:10px!important;
 				margin-left:10px!important;
 				justify-content: space-between!important;
@@ -106,10 +159,10 @@ header {
 		
 		#dunot #bg_4  video{
 		object-fit: contain!important;
-		width:100%!important;
+		width:140%!important;
 		}
 		#dunot #bg_4 .content1{
-			margin-top:60px;
+			margin:40px 0px 30px 16px!important;
 		}
 		
 		#dunot #bg_4 .content1 h1{
@@ -122,12 +175,46 @@ header {
 		
 		#dunot #bg_4 .content1 p{
 			font-size:15px!important;
-			line-height:30px!important;
-			width:350px!important;
+			line-height:25px!important;
+			width:100%!important;
 			min-height: auto;
 			animation-delay: 800ms;
 			opacity:0;
+			text-align: left!important;
+			
 		}
+		
+		#dunot #bg_5{
+			vertical-align: middle!important;
+			text-align: center!important;
+		}
+		
+		video{
+		display: none!important;
+		}
+			
+		#dunot #bg_5 .content1{
+			line-height:73px;
+			margin-bottom:200px;
+		}
+		
+		#dunot #bg_5 h1{
+		display: block!important;
+		font-size: 48px;
+		color: #FFFFFF;
+		font-weight:normal;
+		opacity:0;
+		
+		}
+		
+		#dunot #bg_5  p{
+		display: block!important;
+		font-size: 48px;
+		color: #FFFFFF;
+		opacity:0;
+		animation-delay: 500ms;
+		}
+		
 		#dunot #bg_6 .tableCell{
 			display: block!important;
 		}
@@ -147,6 +234,20 @@ header {
 			margin:10px;
 			
 		}
+		#dunot #bg_6 .content1 .IMG_1{
+			margin-top:80px!important;
+			margin-left:100px!important;
+			margin-right:100px!important;
+		}
+		
+		#dunot #bg_6 .content1 .IMG_2{
+			margin-top:80px!important;
+		}
+		
+		#dunot #bg_6 .content1 .IMG_3{
+			margin-top:80px!important;
+		}
+		
 		
 		#bg_7 {
 			background-size:100% 100%!important;
@@ -157,7 +258,7 @@ header {
 		    margin: 0 auto;
 		    width: 100%;
 		    text-align: left;
-			padding-top:200px;
+			padding-top:130px!important;
 		
 		}
 		
@@ -245,6 +346,14 @@ width: 100%;
 height: 100%;
 }
 
+#dunot #bg_5 h1{
+display: none;
+}
+
+#dunot #bg_5 p{
+display: none;
+}
+
 #dunot #bg_7 {
 	background-image: url(../img/page7.jpg);
 	position: relative;
@@ -255,27 +364,35 @@ height: 100%;
 
 
 /*第二张*/
-#dunot #bg_2 .content1{
+
+/* #dunot #bg_2 .content1{
 	max-width: 1050px;
     width: 100%;
     padding: 25px 50px 0;
     text-align: left;
-}
+} */
 
-#dunot #bg_2 .content1 h1{
+#dunot #bg_2 h1{
 	font-size:60px;
-	font-weight: lighter;
+	font-weight: normal;
 	margin-bottom:50px;
 	opacity:0;
+	padding-left:50px;
 }
 
-#dunot #bg_2 .content1 p{
+/* #bg_2 .active h1,p {
+	-webkit-animation-name:fadeInUp;
+	animation-name: fadeInUp
+} */
+
+#dunot #bg_2 p{
 	font-size:22px;
 	line-height:40px;
 	width:510px;
 	min-height: auto;
 	animation-delay: 500ms;
 	opacity:0;
+	padding-left:50px;
 }
 
 
@@ -290,6 +407,8 @@ height: 100%;
 #dunot #bg_3 .content1 ul{
     display: flex;
     justify-content: space-around;
+	padding-left:100px;
+	padding-right:200px;
 	
 }
 
@@ -303,14 +422,18 @@ height: 100%;
 #dunot #bg_3 .content1 ul li {
     float: left;
     display: flex;
-    max-width: 357px;
-    height: 85px;
+    width: 323px;
+    height: auto;
     align-items: center;
 	justify-content:space-around;
 	
 	
 }
 
+#dunot #bg_3 .content1 ul li img {
+    width: 100%;
+	height:100%;
+}
 
 
 #dunot #bg_3 .Brand1{
@@ -359,12 +482,13 @@ box-sizing: border-box;
 
 #dunot #bg_4 .content1{
 	float: left;
-	margin-right:200px;
+	margin-right:100px;
+	margin-left:100px;
 }
 
 #dunot #bg_4 .content1 h1{
 	font-size:60px;
-	font-weight: lighter;
+	font-weight: normal;
 	margin-bottom:50px;
 	opacity:0;
 	
@@ -377,8 +501,6 @@ box-sizing: border-box;
 	min-height: auto;
 	animation-delay: 800ms;
 	opacity:0;
-	
-	
 }
 
 
@@ -448,7 +570,7 @@ box-sizing: border-box;
 
 #dunot #bg_7 h1 {
 	font-size:80px;
-	font-weight: lighter;
+	font-weight: normal;
 	opacity:1;
 	color: #FFFFFF;
 	padding-left:20px;
@@ -469,38 +591,39 @@ box-sizing: border-box;
 
 #dunot #bg_7 .Icon1{
 	opacity:0;
-	animation-delay: 450ms;
+	animation-delay: 800ms;
 }
 
 #dunot #bg_7 .Icon2{
 	opacity:0;
-	animation-delay: 600ms;
+	animation-delay: 950ms;
 }
 
 #dunot #bg_7 .Icon3{
 	opacity:0;
-	animation-delay: 750ms;
+	animation-delay: 1100ms;
 }
 
 #dunot #bg_7 .Icon4{
 	opacity:0;
-	animation-delay: 900ms;
+	animation-delay: 1250ms;
 }
 
 #dunot #bg_7 .Icon5{
 	opacity:0;
-	animation-delay: 1050ms;
+	animation-delay: 1400ms;
 }
 
 #dunot #bg_7 .Icon6{
 	opacity:0;
-	animation-delay: 1200ms;
+	animation-delay: 1550ms;
 }
 #dunot #bg_7 .Icon7{
 	opacity:0;
-	animation-delay: 1350ms;
+	animation-delay: 1700ms;
 }
 
+-webkit-appearance:none;
 
 
 

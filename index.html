@@ -16,7 +16,7 @@
 					'verticalCentered': false,
 					'css3': true,
 					'slidesColor': ['#ffffff', '#ffffff', '#ffffff', '#ffffff','#ffffff','#ffffff','#ffffff'],
-					'loopBottom':false,
+					'loopBottom':true,
 					'navigation':true,
 					'navigationPosition': 'right',
 					'navigationColor' :  '#ccc',
@@ -48,16 +48,24 @@
 						}
 			 
 						if(index == 4){  
+							$('#video1')[0].play();
 							
 							$('#bg_4 h1').addClass('toShow animated fadeInUp');
 						
 							$('#bg_4 p').addClass('toShow animated fadeInUp');
-							$('#video1')[0].play();
+							
+
 						}
 						
 						if(index == 5){  
 							
 							$('#video2')[0].play();
+							
+							$('#bg_5 h1').addClass('toShow animated fadeInUp');
+						
+							$('#bg_5 p').addClass('toShow animated fadeInUp');
+
+							
 						}
 						
 						
@@ -99,82 +107,15 @@
 // 					
 // 							if(index == 2){  
 // 						
-// 								$('#bg_2 h1').removeClass('toShow  animated fadeInUp');
-// 						
-// 								$('#bg_2 p').removeClass('toShow  animated fadeInUp');
-// 								
-// 							}
-// 					
-// 							if(index == 3){  
-// 							
-// 								$('#bg_3 .Brand1').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_3 .Brand2').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_3 .Brand3').removeClass('toShow animated fadeInUp');
-// 								
-// 								$('#bg_3 .Brand4').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_3 .Brand5').removeClass('toShow animated fadeInUp');
-// 								
-// 								$('#bg_3 .Brand6').removeClass('toShow animated fadeInUp');
-// 							}
-// 					
-// 							if(index == 4){  
-// 								
-// 								$('#bg_4 h1').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_4 p').removeClass('toShow animated fadeInUp');
-// 								$('#video1')[0].play();
-// 							}
-// 							
-// 							if(index == 5){  
-// 								
-// 								$('#video2')[0].play();
-// 							}
-// 							
-// 							
-// 							
-// 							if(index == 6){  
-// 								
-// 								$('#bg_6 .IMG_1').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_6 .IMG_2').removeClass('toShow animated fadeInUp');
-// 								
-// 								$('#bg_6 .IMG_3').removeClass('toShow animated fadeInUp');
-// 								
-// 								
-// 							}
-// 							
-// 							if(index == 7){  
-// 								$('#bg_7 h1').removeClass('toShow animated fadeInLeft');
-// 								
-// 								$('#bg_7 p').removeClass('toShow animated fadeInLeft');
-// 							
-// 								$('#bg_7 .Icon1').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_7 .Icon2').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_7 .Icon3').removeClass('toShow animated fadeInUp');
-// 					
-// 								$('#bg_7 .Icon4').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_7 .Icon5').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_7 .Icon6').removeClass('toShow animated fadeInUp');
-// 							
-// 								$('#bg_7 .Icon7').removeClass('toShow animated fadeInUp');
+// 								$('#bg_2 h1').removeClass('fadeInUp');
+// 								$('#bg_2 p').removeClass('fadeInUp');
+// 								$('#bg_2 h1').addClass('fadeOut');
+// 								$('#bg_2 p').addClass('fadeOut');
 // 								
 // 							}
 // 						
 // 					}
 					
-// 					'afterRender':function(){
-// 						$('video').each(function (i, e) {
-// 						$('video').get(i).play();
-// 						});
-// 					} 
-					 
 					
 				})       
 				
@@ -198,13 +139,11 @@
 					<div class="slidesContainer">
 						<div class="slide table active page_2">
 							<div class="tableCell">
-								<div class="content1">
-									<h1>Meet Echo Dot</h1>
-									<p>With a new speaker and design,Echo Dot is a voice-controlled smart speaker with Alexa,designed for any room.
+									<h1 class="animated">Meet Echo Dot</h1>
+									<p class="animated"><a>With a new speaker and design,Echo Dot is a voice-controlled smart speaker with Alexa,designed for any room.
 										Just ask for music, news, information, and more.You can also call almost anyone, and control compatible smart home
-										devices. Connect to other speakers with Bluetooth or a 3.5mm audio cable.
+										devices. Connect to other speakers with Bluetooth or a 3.5mm audio cable.</a>
 									</p>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -235,16 +174,16 @@
 					<div class="slidesContainer">
 						<div class="slide table active page_4">
 							<div class="tableCell">
-								<video data-keepplaying loop muted id="video1">
+								<video  loop muted id="video1">
 									<source src="video/DonutSkillsAnimation.mp4" type="video/mp4"></source>
 								</video>
 							</div>
 							<div class="tableCell">
 								<div class="content1">
 									<h1>Meet Echo Dot</h1>
-									<p>With a new speaker and design,Echo Dot is a voice-controlled smart speaker with Alexa,designed for any room.
+									<p><a>With a new speaker and design,Echo Dot is a voice-controlled smart speaker with Alexa,designed for any room.
 										Just ask for music, news, information, and more.You can also call almost anyone, and control compatible smart home
-										devices. Connect to other speakers with Bluetooth or a 3.5mm audio cable.
+										devices. Connect to other speakers with Bluetooth or a 3.5mm audio cable.</a>
 									</p>
 								</div>
 							</div>
@@ -253,9 +192,22 @@
 				</div>
 			</div>
 			<div id="bg_5" class="section">
-				<video data-keepplaying loop muted id="video2" >
+				<video loop muted id="video2" >
 					<source src="video/DONUT_HERO_001_V2.mp4" type="video/mp4"></source>
 				</video>
+				<div class="slides">
+					<div class="slidesContainer">
+						<div class="slide table active">
+							<div class="tableCell">
+								<div class="content1">
+									<h1>Add Alexa</h1>
+									<p>to any room</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 			<div id="bg_6" class="section">
 				<div class="slides">
